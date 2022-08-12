@@ -1,0 +1,23 @@
+{
+  "name": "oxtheme",
+  "displayName": "OxTheme",
+  "description": "Minimalistic dark theme",
+  "version": "0.0.2",
+  "publisher": "nypox",
+  "engines": {
+    "vscode": "^1.70.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "icon": "icon.png",
+  "contributes": {
+    "themes": [
+      {
+        "label": "OxTheme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/OxTheme-color-theme.json"
+      }
+    ]
+  }
+}
